@@ -76,6 +76,14 @@ a {
     width: 65%;
 }
 
+/******* Hebergements-card *******/
+.hebergements-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -121,7 +129,7 @@ a {
     margin-bottom: 5px;
 }
 
-
+/* apparemment il faut faire le code restant */
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
