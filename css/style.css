@@ -12,18 +12,77 @@
 .fa-solid {
     color: var(--main-color);
 }
-
 body {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
     display: flex;
     justify-content: center;
+    border: 1px solid purple;
+}
+header {
+    display: flex;
+    flex: 100%;
+    border: 3px solid orange;
+    /* width: auto; */
 }
 
+nav {
+    width: 100%;    
+    border: 1px solid rgb(132, 180, 59);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+
+}
+ul, li {
+    color: rgb(52, 144, 101);
+    list-style: none;
+}
+
+#logo {
+    border:  1px solid rgb(54, 28, 247);
+    margin: 2px;
+}
+
+li img {
+    border:  1px solid rgb(225, 119, 32);
+    margin: 20px;
+}
+
+.host-search {
+    border: 1px solid #0065FC;
+}
+
+
+
+
+#filtre {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid black;
+}
 .main-container {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
 }
+
+
+
+span 
+
+button {
+    background-color: #0065FC;
+    color: white;
+}
+
+
+
 
 a {
     color: inherit;
@@ -78,10 +137,26 @@ a {
 
 /******* Hebergements-card *******/
 .hebergements-card {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    border: 1px solid red;
 }
+
+
+/* ***** ****** */
+
+.heberg-card-article {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* margin: 20px; */
+    padding: 5px;
+
+}
+
+/* .heberg-card-article img {
+
+
+} */
+
 
 
 /****** Populaires ***********/
@@ -131,6 +206,13 @@ a {
 
 /* apparemment il faut faire le code restant */
 
+/* footer et il y a aussi le code manquant pour activites a marseilles a faire ci dessus */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(202, 202, 202);
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
