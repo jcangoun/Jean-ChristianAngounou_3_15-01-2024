@@ -36,7 +36,6 @@ ul {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: flex-start;
     margin: 0 10px;
 }
 ul, li {
@@ -60,28 +59,25 @@ font-size: 40px;
 #hebergements, #activites {
     border: 1px solid red;
 }
+
+
 .host-search {
     border: 1px solid #0065FC;
 }
 
 #search-bar {
+    display: flex;
 margin: 5px;
 }
 
 
-#filtr {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    font-weight: bold;
-
-}
-
 #field-icone-location {
     padding: 1px;
     background-color: #d9d9d9;
-    text-align: center;
-    /* align-items: center; */
+
+
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
 }
 
 
@@ -96,6 +92,33 @@ margin: 5px;
 form div {
     border: 1px solid #d9d9d9;
 }
+#fielt-text-search {
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #d9d9d9;
+    border-bottom:1px solid #d9d9d9;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Raleway';
+}
+button {
+    background-color: #0065FC;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+}
+
+#filtr {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: bold;
+    margin: 10px;
+
+}
 
 
 
@@ -108,10 +131,6 @@ form div {
 
 
 
-button {
-    background-color: #0065FC;
-    color: white;
-}
 
 
 
