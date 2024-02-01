@@ -249,7 +249,7 @@ border-radius: 20px 20px 0 0;
 }
 
 .hebergements-card-title {
-    
+    margin: 0;
 }
 .hebergements-card-subtitle {
     margin: 5px;
@@ -319,13 +319,11 @@ border-radius: 20px 20px 0 0;
 }
 
 .activites-group-card {
-
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: space-between;
 
-    /* margin: 1px;
-    border: 1px solid green; */
 }
 
 .activites-card {
