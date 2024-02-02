@@ -311,11 +311,10 @@ border-radius: 20px 20px 0 0;
     align-items:flex-start;
     width: 100%;
     margin: 30px 0;
-    padding: 20px;
+
 }
 
 #redirection-activites {
-    border: 1px solid orange;
     margin: 20px 0 30px 0;
 }
 
@@ -324,7 +323,6 @@ border-radius: 20px 20px 0 0;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-
 }
 
 .activites-card {
@@ -339,7 +337,7 @@ border-radius: 20px 20px 0 0;
     max-height: 440px;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: flex-start;
     border-radius: 20px;
     box-shadow: 2px 2px 5px 1px #d9d9d9;
 }
@@ -352,9 +350,11 @@ border-radius: 20px 20px 0 0;
 }
 
 .activites-titre {
+    margin: 10px;
     padding: 10px;
     font-weight: bolder;
 }
+
 /* footer et il y a aussi le code manquant pour activites a marseilles a faire ci dessus */
 
 footer {
@@ -363,7 +363,6 @@ footer {
     justify-content: space-around;
     background-color: var(--main-bg-color);
 }
-
 
 .footer-theme {
 
@@ -376,6 +375,8 @@ footer {
 .footer-list {
     display: flex;
     flex-direction: column;
+    position: relative;
+    right: 40px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
