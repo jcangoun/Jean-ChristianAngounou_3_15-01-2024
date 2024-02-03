@@ -231,9 +231,8 @@ a {
     flex-direction: column;
     background-color: white;
     margin: 10px;
-    padding: 10px;
-    border-radius: 30px;
-
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .hebergements-card-article img {
@@ -369,7 +368,7 @@ footer {
 }
 
 .footer-titre {
-
+    
 }
 
 .footer-list {
@@ -377,6 +376,10 @@ footer {
     flex-direction: column;
     position: relative;
     right: 40px;
+}
+
+.footer-element-list {
+    margin: 5px 0;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
