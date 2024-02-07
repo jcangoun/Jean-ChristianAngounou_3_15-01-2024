@@ -21,6 +21,14 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
 header {
     display: flex;
     flex: 100%;
@@ -30,7 +38,7 @@ header {
 
 nav {
     width: 100%; 
-    margin: 20px 0 0 0px;   
+    /* margin: 20px 0 0 0px;    */
 
 }
 
@@ -48,7 +56,7 @@ ul, li {
 
 #logo {
 
-    margin: 2px;
+    margin: 20px 0;
     width: 70%;
     position: relative;
     right: 40px;
@@ -89,16 +97,6 @@ margin: 20px 0;
 
 }
 
-
-
-
-/* form label, form div {
-    
-} */
-
-/* form div {
-    border: 1px solid #f2f2f2;
-} */
 #fielt-text-search {
     /* text-align: center; */
     padding: 5px;
@@ -130,22 +128,37 @@ button {
     align-items: center;
 }
 
+.filtre-titre {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.filtr-favorite-group {
+display: flex;
+flex-direction: row;
+}
+
+
+
 .filtr-favorite {
     display: flex;
     flex-direction: row;
+    align-items: center;
     border: 2px solid #d9d9d9;
     border-radius: 30px;
     margin: 10px;
-    padding: 10px;
+    padding: 7px;
 }
 
 .filtr-paint{
-    /* border: 1px solid black; */
-    padding: 5px;
+
+    margin: 10px;
 }
 
 .filtr-text {
-    padding: 5px;
+    padding: 5px 7px;
+    font-size: 1rem;
 }
 
 .p-information {
@@ -164,12 +177,6 @@ align-items: center;
 }
 
 
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
-    box-sizing: border-box;
-}
 
 
 a {
@@ -232,7 +239,6 @@ a {
 
 }
 
-
 /* ***** ****** */
 
 .hebergements-card-article {
@@ -272,7 +278,6 @@ border-radius: 20px 20px 0 0;
 }
 
 
-
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -282,6 +287,9 @@ border-radius: 20px 20px 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.fa-chart-line {
+
 }
 
 .populaires-cards .card {
@@ -368,6 +376,7 @@ border-radius: 20px 20px 0 0;
     margin: 10px;
     padding: 10px;
     font-weight: bolder;
+    font-size: 15px;
 }
 
 /* footer et il y a aussi le code manquant pour activites a marseilles a faire ci dessus */
@@ -402,12 +411,20 @@ footer {
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
+
+
+    #filtr {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
 
-    .hebergements {
+    .hebergements-and-populaires  .hebergements {
         width: 100%;
     }
 
@@ -423,6 +440,7 @@ footer {
     }
 
     .populaires-cards a {
+        display: flex;
         width: 30%;
     }
 
@@ -438,6 +456,13 @@ footer {
 
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 767.99px) {
     /* ... */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
