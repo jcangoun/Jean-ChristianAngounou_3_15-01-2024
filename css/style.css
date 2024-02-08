@@ -454,7 +454,7 @@ footer {
 
 
 /* Small devices (phones, less than 768px) */
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     /* ... */
 .main-container {
     display: flex;
@@ -498,6 +498,7 @@ footer {
         display: flex;
         flex: 100%;
         justify-content: center;
+        right: 20px;
      }
 
      #hebergements, #activites {
@@ -537,6 +538,7 @@ footer {
      main {
         display: flex;
         flex-direction: column;
+        width: 100%;
      }
 
      .hebergements-and-populaires section {
@@ -596,4 +598,15 @@ footer {
         margin: 0;
     }
 
+
+
+
+
+
+
+
+
+    footer {
+        flex-direction: column;
+    }
 }
