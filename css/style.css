@@ -333,7 +333,7 @@ border-radius: 20px 20px 0 0;
     align-items:flex-start;
     width: 100%;
     margin: 30px 0;
-
+    border: 1px solid green;
 }
 
 #redirection-activites {
@@ -345,6 +345,7 @@ border-radius: 20px 20px 0 0;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    border: 1px solid orangered;
 }
 
 .activites-card {
@@ -385,15 +386,16 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     background-color: var(--main-bg-color);
+    border: 1px solid blueviolet;
 }
 
-.footer-theme {
+/* .footer-theme {
 
-}
+} */
 
-.footer-titre {
+/* .footer-titre {
     
-}
+} */
 
 .footer-list {
     display: flex;
@@ -505,6 +507,12 @@ footer {
         width: 50%;
      }
 
+     #hebergements:hover, #activites:hover {
+
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+    }
+
      #hebergements {
         text-align: center;
      }
@@ -519,6 +527,10 @@ footer {
      }
      .host-search {
         margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
      }
      #search-bar {
         margin: 20px 10px;
@@ -587,6 +599,7 @@ footer {
 
     .activites-a-marseille {
         /* display: flex; */
+        border: 1px solid green;
 
     }
 
@@ -596,17 +609,15 @@ footer {
         align-items: center;
         width: 100%;
         margin: 0;
+        border: 1px solid orangered;
     }
-
-
-
-
-
 
 
 
 
     footer {
         flex-direction: column;
+        border: 1px solid blueviolet;
+        width: 100%;
     }
 }
