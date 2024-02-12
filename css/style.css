@@ -69,7 +69,7 @@ height: 25px;
 
 
 #hebergements, #activites {
-    border:none;
+    border-top: 2px solid transparent;
     padding: 20px 0;
     position: relative;
     right: 20px;
@@ -116,6 +116,16 @@ button {
     border-radius: 0 20px 20px 0;
 }
 
+#button-text-search {
+
+}
+
+#button-magnifying-search {
+    display: none;
+}
+.fa-magnifying-glass {
+    color: white;
+}
 #filtr {
     display: flex;
     flex-direction: row;
@@ -148,6 +158,11 @@ flex-direction: row;
     border-radius: 30px;
     margin: 10px;
     padding: 7px;
+}
+
+
+.filtr-favorite:hover {
+background-color: #DDDBFF;
 }
 
 .filtr-paint{
