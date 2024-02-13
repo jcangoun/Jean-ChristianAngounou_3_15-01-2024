@@ -19,6 +19,7 @@ body {
     width: 100%;
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -27,18 +28,21 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    border: 1px solid pink;
 }
 
 header {
     display: flex;
     flex: 100%;
+    /* width: 100%; */
+    max-width: 1440px;
+    padding: 0 50px;
 
     /* width: auto; */
 }
 
 nav {
     width: 100%; 
-
 }
 
 ul {
@@ -80,9 +84,11 @@ height: 25px;
     border-top: 2px solid #0065FC;
 }
 
-/* .host-search {
-    
-} */
+.host-search {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;   
+}
 
 #search-bar {
     display: flex;
@@ -116,9 +122,9 @@ button {
     border-radius: 0 20px 20px 0;
 }
 
-#button-text-search {
+/* #button-text-search {
 
-}
+} */
 
 #button-magnifying-search {
     display: none;
@@ -552,6 +558,17 @@ footer {
         margin: 20px 10px;
      }
 
+     #button-text-search {
+        display: none;
+
+    }
+      
+    #button-magnifying-search {
+
+        display: flex;
+    }
+
+
      #filtr {
         display: flex;
         /* flex-direction: column; */
@@ -614,8 +631,7 @@ footer {
 
 
     .activites-a-marseille {
-        /* display: flex; */
-        border: 1px solid green;
+
 
     }
 
@@ -625,7 +641,7 @@ footer {
         align-items: center;
         width: 100%;
         margin: 0;
-        border: 1px solid orangered;
+
     }
 
 
@@ -633,7 +649,7 @@ footer {
 
     footer {
         flex-direction: column;
-        border: 1px solid blueviolet;
+
         width: 100%;
     }
 }
