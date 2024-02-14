@@ -409,7 +409,6 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     background-color: var(--main-bg-color);
-    border: 1px solid blueviolet;
 }
 
 /* .footer-theme {
@@ -546,6 +545,11 @@ footer {
         justify-content: center;
         align-items: center;
      }
+
+     #host-search-description {
+        margin: 5px 10px;
+     }
+
      #search-bar {
         margin: 20px 10px;
      }
@@ -556,8 +560,8 @@ footer {
     }
       
     #button-magnifying-search {
-
         display: flex;
+        align-items: center;
     }
 
      #filtr {
