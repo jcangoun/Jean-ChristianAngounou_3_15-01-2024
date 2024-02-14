@@ -415,15 +415,21 @@ footer {
 
 } */
 
-/* .footer-titre {
-    
-} */
+.footer-titre {
+   text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+}
 
 .footer-list {
     display: flex;
     flex-direction: column;
     position: relative;
     right: 40px;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .footer-element-list {
@@ -632,7 +638,6 @@ footer {
     .activites-group-card {
         display: flex;
         flex-direction: column;
-        align-items: center;
         width: 100%;
         margin: 0;
     }
@@ -644,7 +649,6 @@ footer {
 
     footer {
         flex-direction: column;
-
         width: 100%;
     }
 
