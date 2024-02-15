@@ -24,6 +24,10 @@ body {
     justify-content: center;
 }
 
+.general-container {
+    padding: 0;
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -177,33 +181,18 @@ background-color: #DDDBFF;
     font-size: 1rem;
 }
 
+.icone-info {
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 15px;
+}
+
 .p-information {
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: center;
-}
-
-/* #info-bulle {
-content: "\f05a";
-color: white;
-background-color: #0065FC;
-margin:5px;
-border-radius: 20px;
-} */
-
-
-.icone-info {
-    /* border: 2px solid #F2F2F2;
-    border-radius: 20px;
-    padding: 8px;
-    margin: 15px */
-
-    content: "\f05a";
-color: white;
-background-color: #0065FC;
-margin:5px;
-border-radius: 20px;
 }
 
 a {
@@ -418,9 +407,11 @@ footer {
     background-color: var(--main-bg-color);
 }
 
-/* .footer-theme {
-
-} */
+.footer-theme {
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start
+}
 
 .footer-titre {
    text-overflow: ellipsis;
@@ -431,11 +422,11 @@ footer {
 .footer-list {
     display: flex;
     flex-direction: column;
-    font-weight: light;
-
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    position: relative;
+    right: 40px;
 }
 
 .footer-element-list {
@@ -556,7 +547,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
      }
      .host-search-thema {
         margin: 10px;
@@ -574,7 +565,7 @@ footer {
         margin: 20px 10px;
      }
 
-     /* #button-text-search {
+     #button-text-search {
         display: none;
 
     }
@@ -582,7 +573,7 @@ footer {
     #button-magnifying-search {
         display: flex;
         align-items: center;
-    } */
+    }
 
      #filtr {
         display: flex;
@@ -678,7 +669,7 @@ footer {
 
 @media screen and (max-width: 425px) {
 
-    #button-text-search {
+    /* #button-text-search {
         display: none;
 
     }
@@ -686,7 +677,7 @@ footer {
     #button-magnifying-search {
         display: flex;
         align-items: center;
-    }
+    } */
 
     .filtr-favorite-group {
         display: grid;

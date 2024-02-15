@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <div class="general-container" >
         <header>
             <nav class="navigation">
                 <ul id="elements-navigation">
@@ -27,7 +28,6 @@
                 </ul>
             </nav>
         </header>
-
         <section class="host-search">            
             <div class="host-search-thema" >
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -48,7 +48,7 @@
             </form>
             <form action="get" id="filtr">
                 <div class="filtr-titre">
-                    <label for="Filtres">Filtres</label>
+                    <div>Filtres</div>
                 </div>                
                 <div class="filtr-favorite-group">
                     <div class="filtr-favorite">
@@ -83,8 +83,7 @@
                     <i id="info-bulle" class="fa-solid fa-info icone-info"></i>                
                     Plus de 500 logements sont disponibles dans cette ville
             </p>
-        </section>
-            
+        </section>            
         <main class="main-container" >
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
@@ -270,11 +269,9 @@
                     </div>
                 </section>
             </div>
-
             <section class="activites-a-marseille" >
                 <h2 id="redirection-activites">Activités à Marseille</h2>
                 <div class="activites-group-card">
-
                     <div class="activites-card">
                         <a href="#" class="activites-card-lien">
                             <figure class="activites-article">
@@ -282,9 +279,7 @@
                                 <figcaption class="activites-titre">Vieux Port</figcaption>
                             </figure>
                         </a>
-                    </div>
-
-                
+                    </div>                
                 <div class="activites-card">
                     <a href="#" class="activites-card-lien">
                         <figure class="activites-article">
@@ -293,7 +288,6 @@
                         </figure>
                     </a>
                 </div>
-
                 <div class="activites-card">
                     <a href="#" class="activites-card-lien">
                         <figure class="activites-article">
@@ -317,28 +311,28 @@
         <footer>
             <div class="footer-theme">
                 <h3 class="footer-titre">A propos</h3>
-                <div class="footer-list">                    
-                        <h4 class="footer-element-list">
+                <ul class="footer-list">                    
+                        <li class="footer-element-list">
                             <a href="#">Fonctionnement du site</a>
-                        </h4>                                      
-                        <h4 class="footer-element-list">
+                        </li>                                      
+                        <li class="footer-element-list">
                             <a href="#">Conditions générales</a>
-                        </h4>                                       
-                        <h4 class="footer-element-list">
+                        </li>                                       
+                        <li class="footer-element-list">
                             <a href="#">Données et confidentialité</a>
-                        </h4>                    
-                </div>
+                        </li>                    
+                </ul>
             </div>
             <div class="footer-theme">
                 <h3 class="footer-titre">Nos hébergements</h3>
-                <div class="footer-list">                    
-                        <h4 class="footer-element-list">
+                <ul class="footer-list">                    
+                        <li class="footer-element-list">
                             <a href="#">Charte qualité</a>
-                        </h4>                                   
-                        <h4 class="footer-element-list">
+                        </li>                                   
+                        <li class="footer-element-list">
                             <a href="#">Proposer votre hôtel</a>
-                        </h4>                    
-                </div>
+                        </li>                    
+                </ul>
             </div>
             <div class="footer-theme">
                 <h3 class="footer-titre">Assistance</h3>
@@ -356,6 +350,7 @@
                 </ul>
             </div>
         </footer>
+    </div>
     <script src="https://kit.fontawesome.com/2eb67eaae2.js" crossorigin="anonymous" ></script>
 
 </body>
