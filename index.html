@@ -33,11 +33,11 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p id="host-search-description" >En plein centre-ville ou en pleine nature</p>
             </div>
-            <form action="" id="search-bar">
+            <form action="get" id="search-bar">
                 <div id="field-icone-location" >
                     <i class="fa-solid fa-location-dot"></i>
                 </div>
-                <input type="text" name="" id="fielt-text-search" placeholder="Marseille, France">
+                <input type="text" name="champ-ville" id="fielt-text-search" placeholder="Marseille, France">
                 <!-- ci dessous cest un bouton -->
                 <button id="button-text-search" value="Rechercher">Rechercher</button>
                 <button id="button-magnifying-search" value="Rechercher">
@@ -46,9 +46,9 @@
                     </span>
                 </button>
             </form>
-            <form action="" id="filtr">
+            <form action="get" id="filtr">
                 <div class="filtr-titre">
-                    <label for="">Filtres</label>
+                    <label for="Filtres">Filtres</label>
                 </div>                
                 <div class="filtr-favorite-group">
                     <div class="filtr-favorite">
@@ -317,39 +317,43 @@
         <footer>
             <div class="footer-theme">
                 <h3 class="footer-titre">A propos</h3>
-                <ul class="footer-list">
-                    <a href="#">
-                        <li class="footer-element-list">Fonctionnement du site</li>
-                    </a>
-                    <a href="#">
-                        <li class="footer-element-list">Conditions générales</li>
-                    </a>
-                    <a href="#">
-                        <li class="footer-element-list">Données et confidentialité</li>
-                    </a>
-                </ul>
+                <div class="footer-list">                    
+                        <h4 class="footer-element-list">
+                            <a href="#">Fonctionnement du site</a>
+                        </h4>                                      
+                        <h4 class="footer-element-list">
+                            <a href="#">Conditions générales</a>
+                        </h4>                                       
+                        <h4 class="footer-element-list">
+                            <a href="#">Données et confidentialité</a>
+                        </h4>                    
+                </div>
             </div>
             <div class="footer-theme">
                 <h3 class="footer-titre">Nos hébergements</h3>
-                <ul class="footer-list">
-                    <a href="#">
-                        <li class="footer-element-list">Charte qualité</li>
-                    </a>
-                    <a href="#">
-                        <li class="footer-element-list">Proposer votre hôtel</li>
-                    </a>
-                    </div>
-            </ul>
+                <div class="footer-list">                    
+                        <h4 class="footer-element-list">
+                            <a href="#">Charte qualité</a>
+                        </h4>                                   
+                        <h4 class="footer-element-list">
+                            <a href="#">Proposer votre hôtel</a>
+                        </h4>                    
+                </div>
+            </div>
             <div class="footer-theme">
                 <h3 class="footer-titre">Assistance</h3>
-                <ul class="footer-list">
-                    <a href="#">
-                        <li class="footer-element-list">Centre d'aide</li>
-                    </a>
-                    <a href="#">
-                        <li class="footer-element-list">Nous contacter</li>
-                    </a>                    
-                </ul>
+                <div class="footer-list">
+                    
+                        <h4 class="footer-element-list">
+                            <a href="#">Centre d'aide</a>
+                        </h4>
+                    
+                    
+                        <h4 class="footer-element-list">
+                            <a href="#">Nous contacter</a>
+                        </h4>
+                                        
+                </div>
             </div>
         </footer>
     <script src="https://kit.fontawesome.com/2eb67eaae2.js" crossorigin="anonymous" ></script>

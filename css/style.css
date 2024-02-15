@@ -418,8 +418,7 @@ footer {
 .footer-list {
     display: flex;
     flex-direction: column;
-    position: relative;
-    right: 40px;
+    font-weight: light;
 
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -428,6 +427,7 @@ footer {
 
 .footer-element-list {
     margin: 5px 0;
+    font-weight: 100;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
