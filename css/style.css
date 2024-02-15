@@ -545,6 +545,13 @@ footer {
         justify-content: center;
         align-items: center;
      }
+     .host-search-thema {
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+     }
 
      #host-search-description {
         margin: 5px 10px;
