@@ -16,16 +16,18 @@
     color: black;
 }
 body {
-    width: 100%;
     max-width: 1440px;
     margin:  0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 1px solid black;
 }
 
 .general-container {
     padding: 0;
+
+    border: 1px solid blue;
 }
 
 .main-container {
@@ -38,10 +40,8 @@ body {
 header {
     display: flex;
     flex: 100%;
-    /* width: 100%; */
     max-width: 1440px;
     padding: 0 50px;
-
     /* width: auto; */
 }
 
@@ -481,7 +481,7 @@ footer {
 
 
 /* Small devices (phones, less than 768px) */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     /* ... */
 
     body {
@@ -498,7 +498,6 @@ footer {
 }
     header {
         display: flex;
-        width: 100%;
     }
 
     nav {
@@ -667,7 +666,9 @@ footer {
     }
 }
 
-@media screen and (max-width: 425px) {
+/* @media screen and (max-width: 425px) { */
+
+
 
     /* #button-text-search {
         display: none;
@@ -679,10 +680,16 @@ footer {
         align-items: center;
     } */
 
-    .filtr-favorite-group {
+
+    /* Ci dessous il faudra le démuter */
+    
+    /* .filtr-favorite-group {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 5px;
-    }
-}
+    } */
+
+
+
+/* } */
