@@ -306,9 +306,6 @@ border-radius: 20px 20px 0 0;
     justify-content: space-between;
     align-items: center;
 }
-/* .fa-chart-line {
-
-} */
 
 .populaires-cards .card {
     display: flex;
@@ -488,7 +485,12 @@ footer {
         align-items: center;
 
     }
-    
+    .general-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 .main-container {
     display: flex;
     flex-direction: column;
@@ -565,12 +567,12 @@ footer {
      }
 
      #button-text-search {
-        display: none;
+        display: flex;
 
     }
       
     #button-magnifying-search {
-        display: flex;
+        display: none;
         align-items: center;
     }
 
@@ -656,7 +658,7 @@ footer {
     }
 
     footer {
-        flex-direction: column;
+        /* flex-direction: column; */
         width: 100%;
     }
 
@@ -666,11 +668,46 @@ footer {
     }
 }
 
-/* @media screen and (max-width: 425px) { */
+@media screen and (max-width: 425px) {
 
+body {
 
+}
 
-    /* #button-text-search {
+.general-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    
+}
+
+.navigation {
+
+}
+
+.host-search {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.host-search-thema{
+
+}
+#host-search-description {
+
+}
+#search-bar {
+    
+}
+
+    #button-text-search {
         display: none;
 
     }
@@ -678,18 +715,46 @@ footer {
     #button-magnifying-search {
         display: flex;
         align-items: center;
-    } */
+    }
 
 
     /* Ci dessous il faudra le démuter */
     
-    /* .filtr-favorite-group {
+    #filtr {
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-weight: bold;
+        margin: 10px;
+        padding: 5px 0;
+        font-size: 20px;
+        align-items: center; */
+
+
+
+        /* il manque justify-content et align-itmes potentiel a test */
+    }
+
+
+    .filtr-favorite-group {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 5px;
-    } */
+    }
 
 
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        padding:0 50px
+    }
 
-/* } */
+    .hebergements-and-populaires {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
