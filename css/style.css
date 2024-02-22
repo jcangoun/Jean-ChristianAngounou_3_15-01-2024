@@ -182,7 +182,7 @@ button {
 
 .filtr-text {
     padding: 5px 7px;
-    font-size: 1rem;
+    font-size: 15px;
 }
 
 .icone-info {
@@ -455,6 +455,10 @@ footer {
         flex-wrap: wrap;
     }
 
+    .filtr-titre {
+        font-size: 15px;
+        /* margin: 0 10px; */
+    }
     .filtr-favorite-group {
         display: flex;
         flex-direction: row;
