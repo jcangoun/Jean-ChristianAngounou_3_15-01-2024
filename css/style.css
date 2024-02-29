@@ -631,7 +631,9 @@ border-top: 2px solid transparent ;
 
 }
 #search-bar {
-    
+    margin: 20px 5px;
+    justify-content: center;
+    align-items: stretch;
 }
 #field-icone-location {
 
@@ -653,7 +655,7 @@ border-top: 2px solid transparent ;
         border-radius: 20px;
         position: relative;
         right: 10px;
-        padding: 20px;
+        padding: 17px;
     }
 
 
@@ -670,7 +672,9 @@ border-top: 2px solid transparent ;
         /* il manque justify-content et align-itmes potentiel a test */
     }
 
-
+    .filtr-titre {
+        padding: 0 17px;
+    }
     .filtr-favorite-group {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -678,7 +682,7 @@ border-top: 2px solid transparent ;
         gap: 5px;
     }
     .filtr-favorite {
-
+        margin: 5px 0;
     }
 
     .filtr-paint {
