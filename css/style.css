@@ -454,7 +454,7 @@ footer {
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
 
     #filtr {
@@ -510,12 +510,12 @@ footer {
 
 
 /* Small devices (phones, less than 768px) */
-@media screen and (min-width: 426px) and (max-width: 768px) {
+/* @media screen and (min-width: 426px) and (max-width: 768px) { */
     /* ... */
 
-}
+/* } */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
 body {
 max-width: none;
@@ -536,30 +536,37 @@ header {
     display: flex;
     flex-direction: row;
     /* padding: 0 20px; */
+    padding: 0;
 }
 
 .navigation {
-    /* display: flex;
-    flex-wrap: wrap;
-    position: relative;
+     display: flex;
+    /* flex-wrap: wrap; */
+   /* position: relative;
     left: 40px; */
 }
 
 #elements-navigation {
-    /* display: flex;
-    justify-content: center;
+     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; */
     text-align: center;
     padding: 0;
     margin: 0;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #logo {
     /* display: flex;
     justify-content: center;
     align-items: center; */
+
+    display: flex;
     position: static;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 li img {
@@ -567,28 +574,36 @@ li img {
 }
 
 .elements-navigation-menu {
-
+    display: flex;
+    justify-content: space-evenly;
+    flex: 100%;
 }
 
 .elements-navigation-menu-hebergements {
-
+    display: flex;
+    border: 2px solid transparent;
+    flex: 1 1 45%;
+    justify-content: center;
 }
 
 #hebergements {
-    /* display: flex;
-    width: 50%; */
+    /* display: flex; */
     right: 0;
+    border: 2px solid green;
 }
 
 
 .elements-navigation-menu-activites {
-
+    display: flex;
+    border: 2px solid transparent;
+    flex: 1 1 45%;
+    justify-content: center;
 }
 
 #activites {
-    /* display: flex;
-    width: 50%; */
+    /* display: flex; */
     right: 0;
+    border: 2px solid green;
 }
 
 .host-search {
