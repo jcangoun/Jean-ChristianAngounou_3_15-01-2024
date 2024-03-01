@@ -32,7 +32,6 @@ header {
     flex: 100%;
     max-width: 1440px;
     padding: 0 50px;
-    /* width: auto; */
 }
 nav {
     width: 100%; 
@@ -51,7 +50,6 @@ ul, li {
     width: 70%;
     position: relative;
     right: 40px;
-
     font-size: 40px;
     height: 25px;
 }
@@ -80,11 +78,9 @@ li img {
 #field-icone-location {
     background-color: #f2f2f2;
     padding: 20px;
-    border-radius: 20px 0 0 20px;
-    
+    border-radius: 20px 0 0 20px;    
 }
 #fielt-text-search {
-    /* text-align: center; */
     padding: 5px;
     border-left: none;
     border-right: none;
@@ -210,7 +206,6 @@ a {
 .hebergements-card {
     display: flex;
     flex-wrap: wrap;
-
 }
 .hebergements-card-article {
     display: flex;
@@ -224,10 +219,10 @@ a {
     box-shadow: 2px 2px 5px 1px #d9d9d9;
 }
 .hebergements-card-article img {
-width: 100%;
-height: 115px;
-object-fit: cover;
-border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 115px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
 .hebergements-card-content {
     padding: 10px;
@@ -327,7 +322,6 @@ border-radius: 20px 20px 0 0;
 }
 
 /* footer et il y a aussi le code manquant pour activites a marseilles a faire ci dessus */
-
 footer {
     display: flex;
     flex: 100%;
@@ -415,8 +409,8 @@ footer {
 
 @media screen and (max-width: 767px) {    
     body {
-    max-width: none;
-    margin: 0;
+        max-width: none;
+        margin: 0;
     }
     header {
         display: flex;
@@ -438,7 +432,6 @@ footer {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-
     #logo {
         display: flex;
         position: static;
@@ -455,9 +448,9 @@ footer {
         border-bottom:2px solid #f2f2f2;
     }
     #hebergements:hover {
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid #0065FC;
-    color: #0065FC;
+        border-top: 2px solid transparent;
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
     }
     #activites {
         right: 0;
@@ -468,14 +461,14 @@ footer {
         border-bottom:2px solid #f2f2f2;
     }
     #activites:hover {
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid #0065FC;
-    color: #0065FC;
+        border-top: 2px solid transparent;
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
     }
 
     .elements-navigation-menu-hebergements:hover, .elements-navigation-menu-activites:hover {
-     border-bottom:2px solid #0065FC;
-     color: #0065FC;
+        border-bottom:2px solid #0065FC;
+        color: #0065FC;
     } 
 
     .host-search {
@@ -501,7 +494,7 @@ footer {
         right: 10px;
         padding: 17px;
     }
-      #filtr {
+    #filtr {
         flex-direction: column;
         flex-wrap: wrap;
         font-weight: bold;
@@ -509,7 +502,6 @@ footer {
         padding: 5px 0;
         font-size: 20px;
         align-items: flex-start;
-
     }
     .filtr-titre {
         padding: 0 17px;
@@ -550,7 +542,6 @@ footer {
         flex-direction: column;
         border-radius: 0;
     }
-
     .activites-group-card {
         display: flex;
         flex-direction: column;
@@ -583,17 +574,17 @@ footer {
         justify-content: center;
         flex-direction: column;
         margin: 0;
-      }
-      .footer-theme {
+    }
+    .footer-theme {
         margin: 10px 0
-      }
-      .footer-titre {
+    }
+    .footer-titre {
         margin: 0 0px 0 20px;
         padding: 10px 0;
-      }
+    }
 
-      .footer-list {
+    .footer-list {
         margin: 0 0px 0 20px;
-      }
+    }
 
 }
